@@ -48,7 +48,7 @@ Our integrated R&D effort, **The GAMBIT**, formalises and tests systems that pre
 
 | Active Workstream | Description | Key Technical Goals |
 | :--- | :--- | :--- |
-| **Client <-> Server Relationships** | Architecting WASI-compliant environments for high-concurrency runtimes. | •**WASI:** Portable, secure sandboxes.<br>• **Infrastructure:** Secure multi-tenant compute workloads.<br>• **Netcode:** Deterministic execution for verifiable distributed agent inference. |
+| **Client <-> Server Relationships** | Architecting WASI-compliant environments for high-concurrency runtimes. | • **WASI:** Portable, secure sandboxes.<br>• **Infrastructure:** Secure multi-tenant compute workloads.<br>• **Netcode:** Deterministic execution for verifiable distributed agent inference. |
 | **Hybrid & Embodied Agents** | Combining fast executors (RL/PID) with narrative foresight (LLM for the time being). | • **Architecture:** Couple reflective "Valence Oracle" with reactive "Motor Cortex".<br>• **Policy:** Hot-swappable executor policies based on feasibility priors.<br>• **Sim-to-Real:** Minimal viable embodiments (thermal regulation, CNC axes). |
 
 ### Phase III: Organizational & Economic Cybernetics
@@ -56,6 +56,6 @@ Our integrated R&D effort, **The GAMBIT**, formalises and tests systems that pre
 
 | Active Workstream | Description | Key Technical Goals |
 | :--- | :--- | :--- |
-| **Prediction Markets** | Autonomous LP bootstrap contracts for sovereign, recurrent prediction modules acting as oracles of costly information. | • **Sovereign Liquidity:** Markets that do not require human profit incentives for base liquidity.<br>• **Recurrence:** Persistent prediction modules maintained by agents as epistemic tools. |
+| **Prediction Markets** | Autonomous LP bootstrap contracts for sovereign, recurrent prediction modules acting as oracles of costly information. | • **Costly Information Oracles.** Autonomous LP bootstrap contracts for sovereign, persistent prediction modules. | • **Sovereign Liquidity:** Bootstrapping via autonomous contracts; removing dependency on human profit incentives for base liquidity.<br>• **Oracles:** Modules act as sources of "costly" (grounded) information for autonomous AI. <br>• **Recurrence:** Persistent prediction modules maintained by agents as epistemic tools. |
 | **Organizational Cybernetics** | The Social Purpose Corporation (SPC) as a site for autonomous resource stewardship. | • **Governance:** Framing memos/budgets as feasibility-preserving acts.<br>• **Valence:** Evaluating actions by dual profit/purpose outcomes.<br>• **Legal:** Mechanisms for agents to steward resources under SPC protections. |
 
