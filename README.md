@@ -59,5 +59,3 @@ Our integrated R&D effort, **The GAMBIT**, formalises and tests systems that pre
 | **Prediction Markets** | Autonomous LP bootstrap contracts for sovereign, recurrent prediction modules acting as oracles of costly information. | • **Sovereign Liquidity:** Markets that do not require human profit incentives for base liquidity.<br>• **Recurrence:** Persistent prediction modules maintained by agents as epistemic tools. |
 | **Organizational Cybernetics** | The Social Purpose Corporation (SPC) as a site for autonomous resource stewardship. | • **Governance:** Framing memos/budgets as feasibility-preserving acts.<br>• **Valence:** Evaluating actions by dual profit/purpose outcomes.<br>• **Legal:** Mechanisms for agents to steward resources under SPC protections. |
 
----
-*Synthesis: Kernels without metrics are mute; metrics without narrative are opaque; embodiment without new substrates is brittle.*
