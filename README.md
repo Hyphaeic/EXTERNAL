@@ -12,9 +12,9 @@ We are moving alignment from a pedagogical problem (teaching values) to a mechan
 
 | Document | Type | Description |
 | :--- | :--- | :--- |
-| **[The Hyphaeic Summary](./hyphaeic_summary.pdf)** | Executive Primer | A 2-page overview of the experimental framework. Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
-| **[Sovereign AI Alignment](./position_paper.pdf)** | Position Paper | *Authored by HDPbilly, 0xKruger.* <br> Argues that proxy-based rewards fail due to the Symbol Grounding Problem. Proposes "Viability" as the grounding mechanism, using Blockchain as a substrate for thermodynamic irreversibility. |
-| **[Research Programme Proposal](./research_proposal.pdf)** | Technical Spec | *Technical Specification.* <br> Details the Semantic Empowerment Approximation (SEA), the mathematics of the PILE model, and the specific experimental regimes (Renewable vs. Lump-Sum) used to test our hypotheses. |
+| **[Research Prospectus 2 Pager](./research_prospectus/2Pager_Research.pdf)** | Executive Primer | A 2-page overview of the experimental framework. Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
+| **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | *Authored by HDPbilly, 0xKruger.* <br> Argues that proxy-based rewards fail due to the Symbol Grounding Problem. Proposes "Viability" as the grounding mechanism, using Blockchain as a substrate for thermodynamic irreversibility. |
+| **[Research Programme Proposal](./research_prospectus/alignmentResearchProposal.pdf)** | Technical Spec | *Technical Specification.* <br> Details the Semantic Empowerment Approximation (SEA), the mathematics of the PILE model, and the specific experimental regimes (Renewable vs. Lump-Sum) used to test our hypotheses. |
 
 ## 2. Experimental Hypotheses
 As detailed in our [Proposal](./research_proposal.pdf), we are testing four primary signals:
