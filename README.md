@@ -48,7 +48,7 @@ Our integrated R&D effort, **The GAMBIT**, formalises and tests systems that pre
 
 | Active Workstream | Description | Key Technical Goals |
 | :--- | :--- | :--- |
-| **Client <-> Server Relationships** | Architecting WASI-compliant environments for high-concurrency runtimes. | • **Infrastructure:** Secure multi-tenant compute workloads.<br>• **Netcode:** Deterministic execution for verifiable distributed agent inference. |
+| **Client <-> Server Relationships** | Architecting WASI-compliant environments for high-concurrency runtimes. | •**WASI:** Portable, secure sandboxes.<br>• **Infrastructure:** Secure multi-tenant compute workloads.<br>• **Netcode:** Deterministic execution for verifiable distributed agent inference. |
 | **Hybrid & Embodied Agents** | Combining fast executors (RL/PID) with narrative foresight (LLM for the time being). | • **Architecture:** Couple reflective "Valence Oracle" with reactive "Motor Cortex".<br>• **Policy:** Hot-swappable executor policies based on feasibility priors.<br>• **Sim-to-Real:** Minimal viable embodiments (thermal regulation, CNC axes). |
 
 ### Phase III: Organizational & Economic Cybernetics
