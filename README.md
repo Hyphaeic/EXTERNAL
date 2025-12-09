@@ -1,4 +1,4 @@
-# Hyphaeic: Sovereign AI Alignment & The PILE Model
+# Hyphaeic is a system physics & cognition R&D lab creating self-sovereign living systems as aligned, autonomous & persistent economic agents. 
 
 > "To live, it must be able to die."
 
