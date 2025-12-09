@@ -1,41 +1,39 @@
-# Hyphaeic External Projects
+# Hyphaeic: Sovereign AI Alignment & The PILE Model
 
-Welcome to our public showcase! This repo lists our open-source projects and research papers. We're focused on [briefly describe your research area, e.g., "AI agents and radix systems"]. Feel free to star, fork, or contribute if something catches your eye.
+> "To live, it must be able to die."
 
-## Projects
+## 0. Abstract
+Contemporary AI architectures fail to adhere to intent because they operate in environments where error incurs no real cost. We posit that **Skin in the Game (SITG)**—the imposition of irreversible resource constraints—is a prerequisite for semantic grounding.
 
-Here are our public GitHub repos:
+This repository hosts the foundational research for the **Principal-Interest, Life-Energy (PILE)** model. We explore whether replacing abstract reward functions with the existential pressure of solvency (cryptographic metabolism) fosters self-regulation, efficiency, and coherence.
 
-- **[Agent Metric Dashboard](https://github.com/Hdpbilly/agent-metric-dashboard)**  
-  A dashboard for tracking metrics in agent-based systems. [Add a short description: e.g., "Built with XYZ tech, useful for monitoring performance in real-time."]
+## 1. Primary Research
+We are moving alignment from a pedagogical problem (teaching values) to a mechanism design problem (constructing consequence).
 
-- **[Radix Runtime](https://github.com/Hyphaeic/radix-runtime)**  
-  Runtime environment for radix-related computations. [Add a short description: e.g., "Supports efficient tree structures for research applications."]
+| Document | Type | Description |
+| :--- | :--- | :--- |
+| **[The Hyphaeic Summary](./hyphaeic_summary.pdf)** | Executive Primer | A 2-page overview of the experimental framework. Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
+| **[Sovereign AI Alignment](./position_paper.pdf)** | Position Paper | *Authored by HDPbilly, 0xKruger.* <br> Argues that proxy-based rewards fail due to the Symbol Grounding Problem. Proposes "Viability" as the grounding mechanism, using Blockchain as a substrate for thermodynamic irreversibility. |
+| **[Research Programme Proposal](./research_proposal.pdf)** | Technical Spec | *Technical Specification.* <br> Details the Semantic Empowerment Approximation (SEA), the mathematics of the PILE model, and the specific experimental regimes (Renewable vs. Lump-Sum) used to test our hypotheses. |
 
-(We'll add more as we release them!)
+## 2. Experimental Hypotheses
+As detailed in our [Proposal](./research_proposal.pdf), we are testing four primary signals:
 
-## Research Papers
+1.  **Rhythmic Stability:** Renewable agents should exhibit expenditure variance synchronised with yield cadence.
+2.  **Scarcity-Induced Volatility:** Lump-sum agents will likely exhibit higher action volatility as reserves decline.
+3.  **Calibration:** Constrained agents will show superior world-model calibration versus unbounded controls.
+4.  **Efficiency:** Agents driven by Empowerment & Valence (under constraint) will achieve higher optionality gained per unit energy spent.
 
-Our key papers on [your titular research topic]. PDFs are hosted right here for easy access:
+## 3. Active Repositories
+Our research is implemented across the following codebases:
 
-- **[Paper Title 1](link-to-pdf1.pdf)**  
-  Authors: [List authors]  
-  Summary: [1-2 sentence abstract or teaser]. Published in [journal/conference/year if applicable].
-
-- **[Paper Title 2](link-to-pdf2.pdf)**  
-  Authors: [List authors]  
-  Summary: [1-2 sentence abstract or teaser]. Published in [journal/conference/year if applicable].
-
-- **[Paper Title 3](link-to-pdf3.pdf)**  
-  Authors: [List authors]  
-  Summary: [1-2 sentence abstract or teaser]. Published in [journal/conference/year if applicable].
-
-If you cite our work, please use the following format: [Suggest a citation style, e.g., BibTeX or APA, if you have it].
-
-## Contact
-
-Questions? Reach out via [your email, X/Twitter handle, or a GitHub issue here].
+* **[agent-metric-dashboard](https://github.com/Hdpbilly/agent-metric-dashboard)**
+    * *The Telemetry Layer.* Observability tools to track the "metabolic vitals" of the agents, including operational runway, basal metabolic rate, and yield-action latency.
+* **[radix-runtime](https://github.com/Hyphaeic/radix-runtime)**
+    * *The Constraint Layer.* The smart contract and execution environment that enforces the PILE model's economic laws (Principal protection and Interest expenditure).
 
 ---
-
-Last updated: [Date, e.g., December 2025]. Licensed under [CC-BY-4.0 or whatever fits; see LICENSE file].
+*Reference:*
+*Levin, M. (2022). "Technological Approach to Mind Everywhere"*
+*Taleb, N. N. (2018). "Skin in the Game"*
+*Friston, K. (2013). "Life as we know it"*
