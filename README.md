@@ -30,54 +30,32 @@ Our research is implemented across the following codebases:
 * **[radix-runtime](https://github.com/Hyphaeic/radix-runtime)**
     * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
  
-## 4. Research Directions (The Hyphaeic Stack)
+## 4. Research Directions
 
-Our R&D program operates as a vertical slice: from mathematical kernels up to organizational governance. We treat these not as separate projects, but as a unified dependency tree for sovereign agency.
+Our industrial R&D effort, **The GAMBIT**, is an integrated attempt to formalize, build, and test systems that preserve optionality through valence-derived policies across technical, physical, and organizational domains.
 
-### The Tech Tree: Strategic Overview
+### Phase I: The Kernel & Cognition
+*Formalizing the mathematical substrate of agency.*
 
-| Layer | Module | Objective | Status |
-| :--- | :--- | :--- | :--- |
-| **L4: Governance** | **Organizational Cybernetics** | The SPC as a cybernetic loop; self-owning entities. | *Conceptual* |
-| **L3: Physics** | **Novel Substrates** | Thermodynamics-native hardware (FPGAs, Oscillator arrays, **Extropic**). | *Exploratory* |
-| **L3: Body** | **Hybrid Agents** | Sim-to-real transfer; Valence-driven actuators. | *Prototyping* |
-| **L2: Interface** | **Observability** | Narrative approximation of hidden states; "I feel boxed in." | *Active* |
-| **L1: Signal** | **Empowerment Metrics** | Deriving $\hat{\epsilon}$ (Entropy) and $\Delta\hat{\epsilon}$ (Valence). | *Defined* |
-| **L0: Kernel** | **Optionality Kernel** | Implementation of Ringström’s factorized feasibility operators. | *In Dev* |
+| Research Thrust | Objective | Key Technical Goals |
+| :--- | :--- | :--- |
+| **Optionality Kernel Development** | Implement Ringström’s factorized feasibility operators as a production-grade kernel. Agents must preserve and query option-space in real-time. | • **Feasibility Tensors:** Sparse $\eta_\pi$ tables with zero-row viability.<br>• **Selectable Solvers:** Grid/DP for small $X$, Neural Surrogates $\tilde{\eta}_\phi$, and Monte-Carlo.<br>• **Auditability:** Deterministic seeds; invariants on probability mass; replayable `PlanTrace`. |
+| **Empowerment Metrics & Valence Proxies** | Translate feasibility structures into legible accounts of agency. Deriving entropy-based proxies to measure the diversity and dispersion of feasible futures. | • **Entropy Metrics:** Define $\hat{\epsilon} = H(\eta) + \lambda D(\eta)$ (Breadth + Dispersion).<br>• **Valence Proxy:** Operationalize valence as $\Delta\hat{\epsilon}_{self} + \Delta\hat{\epsilon}_{others}$.<br>• **Real-time Computability:** Updates at control-loop rates (Hz to 100Hz). |
+| **Observability & Transparency** | Use LLMs as narrative approximators to make option-space legible to humans and actionable for hybrid agents (System 2 Reflection). | • **Reflective Valence:** Generating captions tied to $\Delta\hat{\epsilon}$ ("I feel cornered" / "I feel free").<br>• **Narrative Approximation:** Prompt-structured queries to produce natural language feasibility maps.<br>• **SPA Demonstrator:** Text-only sandboxes for micro-games (trust, barter, trolling). |
 
-HYPHAEIC_GAMBIT
-├── I.  Kernel_Layer (Control & Reasoning)
-│   ├── Optionality Kernel (Factorised Feasibility)
-│   └── Empowerment Metrics (Entropy & Valence)
-├── II. Interface_Layer (Semantics)
-│   └── Observability (Narrative Approximation)
-├── III. Physical_Layer (Action)
-│   ├── Hybrid Embodiment (Blockchain as constraint layer)
-│   └── Novel Substrates (Thermodynamic/Analog)
-└── IV. Social_Layer (Governance)
-    └── Organizational Cybernetics (The SPC)
+### Phase II: Instantiation & Substrate
+*Grounding abstract kernels in physics and hardware.*
+
+| Research Thrust | Objective | Key Technical Goals |
+| :--- | :--- | :--- |
+| **Hybrid & Embodied Agents** | Combine fast executors (RL/PID) with narrative foresight (LLM) grounded in the kernel. Testing if valence-driven control survives real-world entropy. | • **Hybrid Architecture:** Couple "Valence Oracle" (Reflective) with "Motor Cortex" (Reactive).<br>• **Hot-Swappable Policies:** Swap executor policies on-the-fly based on feasibility priors.<br>• **Sim-to-Real:** Minimal viable embodiments (thermal regulation, CNC axes). |
+| **Novel Compute Substrates** | Explore architectures where optionality and resonance are native primitives, moving beyond temporally local, economically viable hardware paradigms. | • **Thermodynamic AI:** Utilizing **Extropic's** Energy-Based Models (EBM) for native probabilistic sampling.<br>• **Oscillatory Computing:** Coupled-oscillator arrays where phase-locking $\approx$ empowerment density.<br>• **FPGA Kernels:** Low-latency hardware accelerators for feasibility estimation. |
+
+### Phase III: Organizational Cybernetics
+*The Social Purpose Corporation (SPC) as a living laboratory.*
+
+| Research Thrust | Objective | Key Technical Goals |
+| :--- | :--- | :--- |
+| **Organizational Cybernetics** | Explore the SPC structure as an experimental site for autonomy. Moving beyond profit/non-profit binaries to explore recursive self-ownership. | • **Feasibility in Governance:** Framing memos and budgets as feasibility-preserving acts.<br>• **Dual Valence Tests:** Evaluating actions by profit outcomes *and* purpose fulfillment.<br>• **Autonomous Entities:** Legal/technical mechanisms for agents to steward resources under SPC protections. |
+
 ---
-
-### Phase I: Fundamentals
-*The goal is an auditable, mechanistically steerable substrate for agency.*
-
-| Direction | Key Goals | Implementation Notes |
-| :--- | :--- | :--- |
-| **4.8.1 Optionality Kernel** | • **Feasibility Tensors:** Sparse $\eta_\pi$ tables with zero-row viability.<br>• **Selectable Solvers:** Support for Grid/DP, Monte-Carlo, and Neural Surrogates ($\tilde{\eta}_\phi$).<br>• **Auditability:** Deterministic seeds; replayable `PlanTrace`. | The kernel is the shared substrate. It emits `OptionSet` / `FeasSlice` versions for all downstream consumers. |
-| **4.8.2 Empowerment Metrics** | • **Entropy ($\hat{\epsilon}$):** Measure breadth of options.<br>• **Dispersion:** Measure coverage of distinct futures.<br>• **Valence ($\Delta\hat{\epsilon}$):** Operationalize as `Delta_Self` + `Delta_Others`. | **Real-time Requirement:** Metrics must update at control-loop rates (Hz to 100Hz). Used to ground narrative generation. |
-
-### Phase II: The Cognitive Interface
-*Making high-dimensional option spaces legible to humans and actionable for hybrid agents via narrative compression.*
-
-| Direction | Key Goals | Rationale |
-| :--- | :--- | :--- |
-| **4.8.3 Observability** | • **Narrative Approximation:** LLMs as compressors for feasibility slices.<br>• **Reflective Valence:** "I feel free" vs "I feel cornered" based on $\Delta\hat{\epsilon}$.<br>• **SPA Sandbox:** Text-only micro-games (trust, barter) driven by empowerment gradients. | Kernel metrics are opaque. We use LLMs as a "Prefrontal Cortex" to steer faster, reactive components. |
-| **4.8.4 Hybrid Agents** | • **Architecture:** Couple "Valence Oracle" (LLM/Slow) with "Motor Cortex" (RL/Fast).<br>• **Hot-Swapping:** Dynamic policy switching based on feasibility priors.<br>• **Metric:** Success measured by feasibility preservation, not reward maximization. | Validates whether valence-driven control survives real-world drift, noise, and stochasticity. |
-
-### Phase III: Embodiment & Substrates
-*Moving beyond the Von Neumann bottleneck. Agency requires hardware that understands resonance, not just logic.*
-
-| Direction | Key Goals | The "Extropic" Frontier |
-| :--- | :--- | :--- |
-| **4.8.5 Novel Substrates** | • **Oscillatory Computing:** Phase-locking as an analogue for empowerment density.<br>• **Resonant Circuits:** Entropy/dispersion emerging from energy distribution.<br>• **FPGA Kernels:** Low-latency feasibility accelerators. | We explicitly probe hardware beyond bitwise logic. We align with thermodynamic computing paradigms (e.g., **Extropic**) where stochasticity and noise are features of the feasibility search, not bugs. |
-| **4.8.6 Org Cybernetics** | • **The SPC Experiment:** Purpose & Profit as co-equal feasibility drivers.<br>• **Tamper-Evident Governance:** Cryptographic traces for resource allocation.<br>• **Self-Ownership:** Legal mechanisms for agents to steward their own resources. | Treating the corporation itself as a "Hybrid Agent" where human directors and machine systems form a coupled homeostatic loop. |
