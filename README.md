@@ -32,30 +32,32 @@ Our research is implemented across the following codebases:
  
 ## 4. Research Directions
 
-Our industrial R&D effort, **The GAMBIT**, is an integrated attempt to formalize, build, and test systems that preserve optionality through valence-derived policies across technical, physical, and organizational domains.
+Our integrated R&D effort, **The GAMBIT**, formalises and tests systems that preserve optionality through valence-derived policies across technical, physical, and economic domains.
 
 ### Phase I: The Kernel & Cognition
-*Formalizing the mathematical substrate of agency.*
+*Engineering agency.*
 
-| Research Thrust | Objective | Key Technical Goals |
+| Active Workstream | Description | Key Technical Goals |
 | :--- | :--- | :--- |
-| **Optionality Kernel Development** | Implement Ringström’s factorized feasibility operators as a production-grade kernel. Agents must preserve and query option-space in real-time. | • **Feasibility Tensors:** Sparse $\eta_\pi$ tables with zero-row viability.<br>• **Selectable Solvers:** Grid/DP for small $X$, Neural Surrogates $\tilde{\eta}_\phi$, and Monte-Carlo.<br>• **Auditability:** Deterministic seeds; invariants on probability mass; replayable `PlanTrace`. |
-| **Empowerment Metrics & Valence Proxies** | Translate feasibility structures into legible accounts of agency. Deriving entropy-based proxies to measure the diversity and dispersion of feasible futures. | • **Entropy Metrics:** Define $\hat{\epsilon} = H(\eta) + \lambda D(\eta)$ (Breadth + Dispersion).<br>• **Valence Proxy:** Operationalize valence as $\Delta\hat{\epsilon}_{self} + \Delta\hat{\epsilon}_{others}$.<br>• **Real-time Computability:** Updates at control-loop rates (Hz to 100Hz). |
-| **Observability & Transparency** | Use LLMs as narrative approximators to make option-space legible to humans and actionable for hybrid agents (System 2 Reflection). | • **Reflective Valence:** Generating captions tied to $\Delta\hat{\epsilon}$ ("I feel cornered" / "I feel free").<br>• **Narrative Approximation:** Prompt-structured queries to produce natural language feasibility maps.<br>• **SPA Demonstrator:** Text-only sandboxes for micro-games (trust, barter, trolling). |
+| **STOKs (State-Time Option Kernels)** |  <br> Modular Reachability Engine using **Burn**. Maintains Factorized Transition Tensors on GPU to compute 'Feasibility Iteration' updates in milliseconds. | • **JIT Fusion:** Compile update rules into single kernels for millisecond world-model retraining.<br>• **Control:** Actions derived by batched tensor sampling of dynamic models.<br>• **Novel Hardware:** Implementing sampling methods on paradigms like **Extropic** EBMs. |
+| **PSKA (Persistence State-Kernel Architecture)** | Model-based dynamic predictive map frameworks. | • **Compositionality:** Applying Ringström’s theory to valence and empowerment heuristics.<br>• **Dynamic Mapping:** Constructing predictive maps that guide agents toward viable option-spaces. |
+| **Empowerment Metrics** | Deriving entropy-based proxies to measure diversity and dispersion of feasible futures. | • **Entropy:** $\hat{\epsilon} = H(\eta) + \lambda D(\eta)$ (Breadth + Dispersion).<br>• **Valence:** $\Delta\hat{\epsilon}_{self} + \Delta\hat{\epsilon}_{others}$.<br>• **Latency:** Updates at control-loop rates (Hz to 100Hz). |
 
 ### Phase II: Instantiation & Substrate
 *Grounding abstract kernels in physics and hardware.*
 
-| Research Thrust | Objective | Key Technical Goals |
+| Active Workstream | Description | Key Technical Goals |
 | :--- | :--- | :--- |
-| **Hybrid & Embodied Agents** | Combine fast executors (RL/PID) with narrative foresight (LLM) grounded in the kernel. Testing if valence-driven control survives real-world entropy. | • **Hybrid Architecture:** Couple "Valence Oracle" (Reflective) with "Motor Cortex" (Reactive).<br>• **Hot-Swappable Policies:** Swap executor policies on-the-fly based on feasibility priors.<br>• **Sim-to-Real:** Minimal viable embodiments (thermal regulation, CNC axes). |
-| **Novel Compute Substrates** | Explore architectures where optionality and resonance are native primitives, moving beyond temporally local, economically viable hardware paradigms. | • **Thermodynamic AI:** Utilizing **Extropic's** Energy-Based Models (EBM) for native probabilistic sampling.<br>• **Oscillatory Computing:** Coupled-oscillator arrays where phase-locking $\approx$ empowerment density.<br>• **FPGA Kernels:** Low-latency hardware accelerators for feasibility estimation. |
+| **Client <-> Server Relationships** | Architecting WASI-compliant environments for high-concurrency runtimes. | • **Infrastructure:** Secure multi-tenant compute workloads.<br>• **Netcode:** Deterministic execution for verifiable distributed agent inference. |
+| **Hybrid & Embodied Agents** | Combining fast executors (RL/PID) with narrative foresight (LLM for the time being). | • **Architecture:** Couple reflective "Valence Oracle" with reactive "Motor Cortex".<br>• **Policy:** Hot-swappable executor policies based on feasibility priors.<br>• **Sim-to-Real:** Minimal viable embodiments (thermal regulation, CNC axes). |
 
-### Phase III: Organizational Cybernetics
-*The Social Purpose Corporation (SPC) as a living laboratory.*
+### Phase III: Organizational & Economic Cybernetics
+*Market structures as oracles of costly information.*
 
-| Research Thrust | Objective | Key Technical Goals |
+| Active Workstream | Description | Key Technical Goals |
 | :--- | :--- | :--- |
-| **Organizational Cybernetics** | Explore the SPC structure as an experimental site for autonomy. Moving beyond profit/non-profit binaries to explore recursive self-ownership. | • **Feasibility in Governance:** Framing memos and budgets as feasibility-preserving acts.<br>• **Dual Valence Tests:** Evaluating actions by profit outcomes *and* purpose fulfillment.<br>• **Autonomous Entities:** Legal/technical mechanisms for agents to steward resources under SPC protections. |
+| **Prediction Markets** | Autonomous LP bootstrap contracts for sovereign, recurrent prediction modules acting as oracles of costly information. | • **Sovereign Liquidity:** Markets that do not require human profit incentives for base liquidity.<br>• **Recurrence:** Persistent prediction modules maintained by agents as epistemic tools. |
+| **Organizational Cybernetics** | The Social Purpose Corporation (SPC) as a site for autonomous resource stewardship. | • **Governance:** Framing memos/budgets as feasibility-preserving acts.<br>• **Valence:** Evaluating actions by dual profit/purpose outcomes.<br>• **Legal:** Mechanisms for agents to steward resources under SPC protections. |
 
 ---
+*Synthesis: Kernels without metrics are mute; metrics without narrative are opaque; embodiment without new substrates is brittle.*
