@@ -45,6 +45,17 @@ Our R&D program operates as a vertical slice: from mathematical kernels up to or
 | **L1: Signal** | **Empowerment Metrics** | Deriving $\hat{\epsilon}$ (Entropy) and $\Delta\hat{\epsilon}$ (Valence). | *Defined* |
 | **L0: Kernel** | **Optionality Kernel** | Implementation of Ringström’s factorized feasibility operators. | *In Dev* |
 
+HYPHAEIC_GAMBIT
+├── I.  Kernel_Layer (Control & Reasoning)
+│   ├── Optionality Kernel (Factorised Feasibility)
+│   └── Empowerment Metrics (Entropy & Valence)
+├── II. Interface_Layer (Semantics)
+│   └── Observability (Narrative Approximation)
+├── III. Physical_Layer (Action)
+│   ├── Hybrid Embodiment (Blockchain as constraint layer)
+│   └── Novel Substrates (Thermodynamic/Analog)
+└── IV. Social_Layer (Governance)
+    └── Organizational Cybernetics (The SPC)
 ---
 
 ### Phase I: Fundamentals
