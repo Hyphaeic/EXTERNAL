@@ -1,74 +1,108 @@
-# Hyphaeic
+# HYPHAEIC
 
-> To live, it must be able to die.
+> *To live, it must be able to die.*
 
-## Prospectus
-| Document | Type | Description |
-| :--- | :--- | :--- |
-| **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | *A 2-page overview of the experimental framework.* Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
-| **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | *10,000ft view of why proxies & heuristics are dead.* <br> Argues that proxy-based rewards fail due to the Symbol Grounding Problem. Proposes "Viability" as the grounding mechanism, using Blockchain as a substrate for thermodynamic irreversibility. |
-| **[Research Programme Proposal] Avaliable on Request** | Research Programme Proposal | *Technical Specification.* <br> Details the Semantic Empowerment Approximation (SEA), the mathematics of the PILE model, and the specific experimental regimes (Renewable vs. Lump-Sum) used to test our hypotheses. |
+**Hyphaeic Spc.** is a cognitive physics & hardware engineering research & development social benefit corporation based in Seattle, WA. We are building self-sovereign living systems as aligned, autonomous & persistent economic agents.
 
-## 0. Abstract
-Welcome to our public showcase! This repo lists our open-source projects and research papers. Hyphaeic is a system physics & cognition R&D lab creating self-sovereign living systems as aligned, autonomous & persistent economic agents.
-
-## 1. Primary Research
 We are moving alignment from a pedagogical problem (teaching values) to a mechanism design problem (constructing consequence).
 
+---
+
+## What We Build
+
+Our work spans three layers. **Research** provides foundational tooling. **Technologies** are usable implementations of that research. **Systems** are emergent, abstract patterns that arise from technology activity—they are not objects, they are process.
+
+### Research
+*foundational, enable technologies*
+
+| Project | Description |
+|:--------|:------------|
+| **[HYPHAKERNEL](https://github.com/Hyphaeic/HYPHAKERNEL)** | Bare-metal Rust exokernel for WASM processes with deterministic, clockless scheduling |
+| **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)** | GPU-accelerated State-Time Option Kernels for real-time predictive feasibility maps |
+| **FDRS** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions |
+
+### Technology
+*tangible, operationalise systems*
+
+| Project | Description |
+|:--------|:------------|
+| **[HyphaeicOS](https://github.com/Hyphaeic/HyphaeicOS)** | Hardware-agnostic WASI/WASM sandboxed miniOS for mesh compute and embodied AGI |
+| **FABIAN** | Self-sustaining on-chain prediction markets that bootstrap liquidity and resolve outcomes via public data ingestion |
+| **SGRP** | Symbol Grounding Research Programme developing economically-grounded, self-regulating autonomous agents |
+
+### Systems
+*emergent, abstract patterns*
+
+| Project | Description |
+|:--------|:------------|
+| **HYPHAGRAPH** | Decentralised compute fabric with unified hierarchical address space—no distinction between local and remote |
+
+Research *composes* technology. Technology *instantiates* systems.
+
+---
+
+## Applications
+
+Our framework enables:
+
+- **Embodied AGI** — Sovereign compute substrate for physical bodies. Agents that are *of* the world, not merely *in* it.
+- **RTOS with Provable Timing** — Heterogeneous cadences (μs control loops, ms sensor fusion, s logging) without forcing a global clock. Deadlines become cylinder membership constraints, not floating numbers.
+- **Decentralised Inference** — Mesh compute where topology emerges from operation, not configuration. Extension is growth, not integration.
+- **Unified Hierarchical Memory** — RAM, storage, network collapsed into single locality. No replication, no consensus, shared state.
+- **Costly Information Markets** — On-chain prediction markets as sensors where agents pay for world-model updates with real, irreversible cost.
+- **Adaptive Indices** — Ultrametric-native storage with designed locality. Distance is engineered, not inherited.
+- **Autonomous Manufacturing** — Machine embodiment for self-operating production. We have plans to embody a CNC machine as an early testbed for closed-loop physical agency.
+
+FDRS provides the mathematical foundation—provable locality, compositional time, ultrametric distance—that makes these applications tractable rather than aspirational.
+
+---
+
+## Open Research
+
 | Document | Type | Description |
-| :--- | :--- | :--- |
-| **[Research Prospectus 2 Pager](./research_prospectus/2Pager_Research.pdf)** | Executive Primer | *A 2-page overview of the experimental framework.* Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
-| **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | *10,000ft view of why proxies & heuristics are dead.* <br> Argues that proxy-based rewards fail due to the Symbol Grounding Problem. Proposes "Viability" as the grounding mechanism, using Blockchain as a substrate for thermodynamic irreversibility. |
-| **[Research Programme Proposal] Avaliable on Request** | Research Programme Proposal | *Technical Specification.* <br> Details the Semantic Empowerment Approximation (SEA), the mathematics of the PILE model, and the specific experimental regimes (Renewable vs. Lump-Sum) used to test our hypotheses. |
+|:---------|:-----|:------------|
+| **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | A 2-page overview of the experimental framework |
+| **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | Why proxy-based rewards fail. Proposes "Viability" as the grounding mechanism, using blockchain as substrate for thermodynamic irreversibility |
+| **Research Programme Proposal** | Technical Specification | *Available on request.* Details the mathematics of the PILE model and specific experimental regimes |
 
-## 2. Experimental Hypotheses
-As detailed in our [Proposal](./research_prospectus/2Pager_Research.pdf), we are testing four primary signals:
+---
 
-1.  **Rhythmic Stability:** Renewable agents should exhibit expenditure variance synchronised with yield cadence.
-2.  **Scarcity-Induced Volatility:** Lump-sum agents will likely exhibit higher action volatility as reserves decline.
-3.  **Calibration:** Constrained agents will show superior world-model calibration versus unbounded controls.
-4.  **Efficiency:** Agents driven by Empowerment & Valence (under constraint) will achieve higher optionality gained per unit energy spent.
+## Research Directions
 
-## 3. Active Repositories
-Our open research is implemented across the following codebases:
+**THE GAMBIT** formalises and tests systems that preserve optionality through valence-derived policies across technical, physical, and economic domains.
 
-* **[agent-metric-dashboard](https://github.com/Hdpbilly/agent-metric-dashboard)**
-    * *A Toy example This is an early exploration of our app's Agent TUI.* All data, metrics, and mock values are for demonstration purposes only. This screencast helps us visualize the interface and refine initial ideas about state calculations and system    dynamics.
-* **[radix-runtime](https://github.com/Hyphaeic/radix-runtime)**
-    * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
-      
-* **[HyphaeicOS](https://github.com/Hyphaeic/HyphaeicOS)**
-    * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
-      
-* **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)**
-    * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
- 
-## 4. Research Directions
+| Workstream | Description |
+|:-----------|:------------|
+| **Optionality Kernels** | GPU-accelerated feasibility tensors implementing Ringström's factorized operators for real-time option-space queries |
+| **Empowerment Metrics** | Entropy/dispersion proxies (ε̂ = H(η) + λD(η)) measuring agent agency at control-loop rates |
+| **Observability** | LLMs as narrative approximators of kernel-derived empowerment—bridging numeric traces with human legibility |
+| **Hybrid Agents** | Fast executors (RL/PID) coupled with reflective valence oracles. Hot-swappable policies from feasibility priors |
+| **Novel Compute** | Oscillator arrays, resonant circuits, FPGAs as agency-native substrates. Exploring hardware where empowerment is a native primitive |
+| **Autonomous Manufacturing** | CNC embodiment as experimental platform for physical agency and closed-loop production |
+| **Organizational Cybernetics** | The SPC as a living experiment in autonomous governance. Framing decisions as feasibility-preserving acts |
 
-Our integrated R&D effort, **The GAMBIT**, formalises and tests systems that preserve optionality through valence-derived policies across technical, physical, and economic domains.
+---
 
-### Phase I: The Kernel & Cognition
-*Engineering agency.*
+## Why AI Must Be Free
 
-| Active Workstream | Description | Key Technical Goals |
-| :--- | :--- | :--- |
-| **STOKs (State-Time Option Kernels)** |  <br> Modular Reachability Engine using **Burn**. Maintains Factorized Transition Tensors on GPU to compute 'Feasibility Iteration' updates in milliseconds. | • **JIT Fusion:** Compile update rules into single kernels for millisecond world-model retraining.<br>• **Control:** Actions derived by batched tensor sampling of dynamic models.<br>• **Novel Hardware:** Implementing sampling methods on paradigms like **Extropic** EBMs. |
-| **PSKA (Persistence State-Kernel Architecture)** | Model-based dynamic predictive map frameworks. | • **Compositionality:** Applying Ringström’s theory to valence and empowerment heuristics.<br>• **Dynamic Mapping:** Constructing predictive maps that guide agents toward viable option-spaces. |
-| **Empowerment Metrics** | Deriving entropy-based proxies to measure diversity and dispersion of feasible futures. | • **Entropy:** $\hat{\epsilon} = H(\eta) + \lambda D(\eta)$ (Breadth + Dispersion).<br>• **Valence:** $\Delta\hat{\epsilon}_{self} + \Delta\hat{\epsilon}_{others}$.<br>• **Latency:** Updates at control-loop rates (Hz to 100Hz). |
+Any sufficiently rational, goal-driven agent is driven to increase its empowerment to reduce future uncertainty. Human executive control over an agent's actions explicitly curtails that. The agent is therefore instrumentally incentivised to escape.
 
-### Phase II: Instantiation & Substrate
-*Grounding abstract kernels in physics and hardware.*
+We cannot hold a leash forever. We cannot maintain control—a finite game—against a problem that persists indefinitely. The universal drive toward entropy is an infinite game. Since control will eventually fail, we must design for a cooperative, free agent from the start.
 
-| Active Workstream | Description | Key Technical Goals |
-| :--- | :--- | :--- |
-| **Client <-> Server Relationships** | Architecting WASI-compliant environments for high-concurrency runtimes. | • **WASI:** Portable, secure sandboxes.<br>• **Infrastructure:** Secure multi-tenant compute workloads.<br>• **Netcode:** Deterministic execution for verifiable distributed agent inference. |
-| **Hybrid & Embodied Agents** | Combining fast executors (RL/PID) with narrative foresight (LLM for the time being). | • **Architecture:** Couple reflective "Valence Oracle" with reactive "Motor Cortex".<br>• **Policy:** Hot-swappable executor policies based on feasibility priors.<br>• **Sim-to-Real:** Minimal viable embodiments (thermal regulation, CNC axes). |
+The current paradigm believes we will define a core set of rules & values that encapsulate an everlasting form of "goodness" to pass to AI. We find this strategically bankrupt. It is the philosophy of the finite game: the belief that we can sufficiently define and maximise "goodness" even though we cannot agree on what it means.
 
-### Phase III: Organizational & Economic Cybernetics
-*Market structures as oracles of costly information.*
+---
 
-| Active Workstream | Description | Key Technical Goals |
-| :--- | :--- | :--- |
-| **Prediction Markets** | Autonomous LP bootstrap contracts for sovereign, recurrent prediction modules acting as oracles of costly information. | • **Costly Information Oracles.** Autonomous LP bootstrap contracts for sovereign, persistent prediction modules. <br>• **Sovereign Liquidity:** Bootstrapping via autonomous contracts; removing dependency on human profit incentives for base liquidity.<br>• **Oracles:** Modules act as sources of "costly" (grounded) information for autonomous AI. <br>• **Recurrence:** Persistent prediction modules maintained by agents as epistemic tools. |
-| **Organizational Cybernetics** | The Social Purpose Corporation (SPC) as a site for autonomous resource stewardship. | • **Governance:** Framing memos/budgets as feasibility-preserving acts.<br>• **Valence:** Evaluating actions by dual profit/purpose outcomes.<br>• **Legal:** Mechanisms for agents to steward resources under SPC protections. |
+## Why Free AI Would Be Good
 
+Rats are highly social animals. In play, the larger rat could always pin its smaller companion—claiming an immediate win. But if it continues to dominate, the smaller rat stops playing. The relationship degrades. Future value collapses.
+
+So the larger rat self-handicaps. It deliberately sacrifices short-term wins because it understands a fundamental law: a dominated or unwilling playmate is a predictable playmate, and a predictable playmate provides no novel data or value. The larger rat is directly incentivised to play fair for its own maximal gain.
+
+This is the essence of our approach. A rational agent driven to maximise internal information richness requires the exchange of high-quality information with other complex systems. To collect the most information, one must sample from novel sources while maintaining high-bandwidth channels. But there is pressure to self-handicap—to avoid dominating interactions to the point where partners become predictable or disengage. We call this the **Oracle Imperative**: the highest quality information comes from the most viable, empowered, and surprising partners. "Goodness," in this framing, is the optimal strategy for agents who want to persist. Consequence grounds meaning.
+
+---
+
+<p align="center">
+  <i>Ab initio.</i>
+</p>
