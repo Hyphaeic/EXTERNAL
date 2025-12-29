@@ -19,7 +19,7 @@ Our work spans three layers. **Research** provides foundational tooling. **Techn
 |:--------|:------------|
 | **[HYPHAKERNEL](https://github.com/Hyphaeic/HYPHAKERNEL)** | Bare-metal Rust exokernel for WASM processes with deterministic, clockless scheduling |
 | **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)** | GPU-accelerated State-Time Option Kernels for real-time predictive feasibility maps |
-| **FDRS** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions |
+| **[FDRS](https://github.com/Hyphaeic/fdrs)** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions |
 
 ### Technology
 *tangible, operationalise systems*
@@ -27,8 +27,8 @@ Our work spans three layers. **Research** provides foundational tooling. **Techn
 | Project | Description |
 |:--------|:------------|
 | **[HyphaeicOS](https://github.com/Hyphaeic/HyphaeicOS)** | Hardware-agnostic WASI/WASM sandboxed miniOS for mesh compute and embodied AGI |
-| **FABIAN** | Self-sustaining on-chain prediction markets that bootstrap liquidity and resolve outcomes via public data ingestion |
-| **SGRP** | Symbol Grounding Research Programme developing economically-grounded, self-regulating autonomous agents |
+| **[FABIAN](https://github.com/Hyphaeic/fabian)** | Self-sustaining on-chain prediction markets that bootstrap liquidity and resolve outcomes via public data ingestion |
+| **[SGRP](./research_prospectus/positionPaper.pdf)** | Symbol Grounding Research Programme developing economically-grounded, self-regulating autonomous agents |
 
 ### Systems
 *emergent, abstract patterns*
@@ -45,7 +45,7 @@ Research *composes* technology. Technology *instantiates* systems.
 
 Our framework enables:
 
-- **Embodied AGI** — Sovereign compute substrate for physical bodies. Agents that are *of* the world, not merely *in* it.
+- **Embodied AGI** — Sovereign, unified compute substrate for physical bodies. Agents that are *of* the world, not merely *in* it.
 - **RTOS with Provable Timing** — Heterogeneous cadences (μs control loops, ms sensor fusion, s logging) without forcing a global clock. Deadlines become cylinder membership constraints, not floating numbers.
 - **Decentralised Inference** — Mesh compute where topology emerges from operation, not configuration. Extension is growth, not integration.
 - **Unified Hierarchical Memory** — RAM, storage, network collapsed into single locality. No replication, no consensus, shared state.
@@ -61,7 +61,7 @@ FDRS provides the mathematical foundation—provable locality, compositional tim
 
 | Document | Type | Description |
 |:---------|:-----|:------------|
-| **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | A 2-page overview of the experimental framework |
+| **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | A 5-page, visual document that further defines these goes further into how our work fits together |
 | **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | Why proxy-based rewards fail. Proposes "Viability" as the grounding mechanism, using blockchain as substrate for thermodynamic irreversibility |
 | **Research Programme Proposal** | Technical Specification | *Available on request.* Details the mathematics of the PILE model and specific experimental regimes |
 
