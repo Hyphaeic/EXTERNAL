@@ -23,11 +23,17 @@ As detailed in our [Proposal](./research_prospectus/2Pager_Research.pdf), we are
 4.  **Efficiency:** Agents driven by Empowerment & Valence (under constraint) will achieve higher optionality gained per unit energy spent.
 
 ## 3. Active Repositories
-Our research is implemented across the following codebases:
+Our open research is implemented across the following codebases:
 
 * **[agent-metric-dashboard](https://github.com/Hdpbilly/agent-metric-dashboard)**
     * *A Toy example This is an early exploration of our app's Agent TUI.* All data, metrics, and mock values are for demonstration purposes only. This screencast helps us visualize the interface and refine initial ideas about state calculations and system    dynamics.
 * **[radix-runtime](https://github.com/Hyphaeic/radix-runtime)**
+    * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
+      
+* **[HyphaeicOS](https://github.com/Hyphaeic/HyphaeicOS)**
+    * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
+      
+* **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)**
     * *Browser WASM clock system* A WebAssembly-based mixed-radix clock implementation using SharedArrayBuffer for shared memory between the main thread and Web Workers.
  
 ## 4. Research Directions
