@@ -1,11 +1,11 @@
 # Hyphaeic
 
-> "To live, it must be able to die."
+> To live, it must be able to die.
 
-## X. Prospectus
+## Prospectus
 | Document | Type | Description |
 | :--- | :--- | :--- |
-| **[Hyphaeic Research, Technology & Systems](./public/Research, Technologies & Systems.pdf)** | Prospectus | *A 2-page overview of the experimental framework.* Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
+| **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | *A 2-page overview of the experimental framework.* Introduces the core thesis: providing agents with a "synthetic metabolism" built on cryptocurrency where depletion results in permanent cessation of function. |
 | **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | *10,000ft view of why proxies & heuristics are dead.* <br> Argues that proxy-based rewards fail due to the Symbol Grounding Problem. Proposes "Viability" as the grounding mechanism, using Blockchain as a substrate for thermodynamic irreversibility. |
 | **[Research Programme Proposal] Avaliable on Request** | Research Programme Proposal | *Technical Specification.* <br> Details the Semantic Empowerment Approximation (SEA), the mathematics of the PILE model, and the specific experimental regimes (Renewable vs. Lump-Sum) used to test our hypotheses. |
 
