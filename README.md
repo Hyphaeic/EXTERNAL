@@ -4,8 +4,6 @@
 
 **Hyphaeic Spc.** is a cognitive physics & hardware engineering research & development social benefit corporation based in Seattle, WA. We are building self-sovereign living systems as aligned, autonomous & persistent economic agents.
 
-We are moving alignment from a pedagogical problem (teaching values) to a mechanism design problem (constructing consequence).
-
 ---
 
 ## What We Build
