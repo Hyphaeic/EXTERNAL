@@ -53,7 +53,7 @@ FDRS provides the mathematical foundation—provable locality, compositional tim
 | Document | Type | Description |
 |:---------|:-----|:------------|
 | **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | A 5-page, visual document that further defines these goes further into how our work fits together |
-| **[Research Proposal 2 Pager](./research_prospectus/2Pager_Research.pdf)** | Prospectus | A 5-page, visual document that further defines these goes further into how our work fits together |
+| **[Research Proposal 2 Pager](./research_prospectus/2Pager_Research.pdf)** | Summary | Experiment structure, explains the control drivers, use of blockchain as energetic analogue, uncited|
 | **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | Why proxy-based rewards fail. Proposes "Viability" as the grounding mechanism, using blockchain as substrate for thermodynamic irreversibility |
 | **Research Programme Proposal** | Technical Specification | *Available on request.* Details the mathematics of the PILE model and specific experimental regimes |
 
