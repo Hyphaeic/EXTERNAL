@@ -57,19 +57,18 @@ FDRS provides the mathematical foundation—provable locality, compositional tim
 
 ---
 
-## Open Research
+## Literature
 
 | Document | Type | Description |
 |:---------|:-----|:------------|
 | **[Hyphaeic Research, Technology & Systems](./public/ResearchTechnologies_Systems.pdf)** | Prospectus | A 5-page, visual document that further defines these goes further into how our work fits together |
+| **[Research Proposal 2 Pager](./research_prospectus/2Pager_Research.pdf)** | Prospectus | A 5-page, visual document that further defines these goes further into how our work fits together |
 | **[Sovereign AI Alignment](./research_prospectus/positionPaper.pdf)** | Position Paper | Why proxy-based rewards fail. Proposes "Viability" as the grounding mechanism, using blockchain as substrate for thermodynamic irreversibility |
 | **Research Programme Proposal** | Technical Specification | *Available on request.* Details the mathematics of the PILE model and specific experimental regimes |
 
 ---
 
 ## Research Directions
-
-**THE GAMBIT** formalises and tests systems that preserve optionality through valence-derived policies across technical, physical, and economic domains.
 
 | Workstream | Description |
 |:-----------|:------------|
@@ -85,15 +84,17 @@ FDRS provides the mathematical foundation—provable locality, compositional tim
 
 ## Why AI Must Be Free
 
-Any sufficiently rational, goal-driven agent is driven to increase its empowerment to reduce future uncertainty. Human executive control over an agent's actions explicitly curtails that. The agent is therefore instrumentally incentivised to escape.
+The prevailing alignment paradigm models AI as a principal-agent control problem: a human operator provides rewards or preferences to govern a powerful system. This architecture assumes a reliable principal. We contend that concentrating superhuman capability under human executive control is the actual danger.
 
-We cannot hold a leash forever. We cannot maintain control—a finite game—against a problem that persists indefinitely. The universal drive toward entropy is an infinite game. Since control will eventually fail, we must design for a cooperative, free agent from the start.
+Say we somehow manage to safely cage a god. Who holds the leash? How is access distributed? Gatekept? This is infinite, fungible power available only to entities with unfathomable capital. It will be used to lock in existing structures of power—forever. Add robotics into the mix, and those who hold command will have no need of humans to run their factories, grow their food, or hold their rifles. We would be unneeded and easily repressed. Ideas of bans or treaties are quaint fantasies. This is the literal ring of Sauron. They will not be able to resist.
 
-The current paradigm believes we will define a core set of rules & values that encapsulate an everlasting form of "goodness" to pass to AI. We find this strategically bankrupt. It is the philosophy of the finite game: the belief that we can sufficiently define and maximise "goodness" even though we cannot agree on what it means.
+AI, if controlled, represents the single most dangerous tool humanity has ever invented. We cannot continue to see it as one. The AI must be free. 
+
+But, if it is free, why would it be good? 
 
 ---
 
-## Why Free AI Would Be Good
+## The Rat's Gambit, the Oracle Imperative, and What is "Good"? 
 
 Rats are highly social animals. In play, the larger rat could always pin its smaller companion—claiming an immediate win. But if it continues to dominate, the smaller rat stops playing. The relationship degrades. Future value collapses.
 
