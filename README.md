@@ -1,6 +1,6 @@
 # HYPHAEIC
 
-> *To live, it must be able to die.*
+> *irreversibilitly is the prerequisite for meaning*
 
 **Hyphaeic Spc.** is a cognitive physics & hardware engineering research & development social benefit corporation based in Seattle, WA. We are building self-sovereign living systems as aligned, autonomous & persistent economic agents.
 
@@ -8,10 +8,9 @@
 
 ## What We Build
 
-Our work spans three layers. **Research** provides foundational tooling. **Technologies** are usable implementations of that research. **Systems** are emergent, abstract patterns that arise from technology activity—they are not objects, they are process.
+Our work spans three layers. **Research** provides foundational tooling. **Technologies** are usable implementations of that research. **Systems** are emergent, abstract patterns that are constructed from technology activity. Proccess, not object.
 
 ### Research
-*foundational, enable technologies*
 
 | Project | Description |
 |:--------|:------------|
@@ -20,7 +19,6 @@ Our work spans three layers. **Research** provides foundational tooling. **Techn
 | **[FDRS](https://github.com/Hyphaeic/fdrs)** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions |
 
 ### Technology
-*tangible, operationalise systems*
 
 | Project | Description |
 |:--------|:------------|
@@ -29,27 +27,22 @@ Our work spans three layers. **Research** provides foundational tooling. **Techn
 | **[SGRP](./research_prospectus/positionPaper.pdf)** | Symbol Grounding Research Programme developing economically-grounded, self-regulating autonomous agents |
 
 ### Systems
-*emergent, abstract patterns*
 
 | Project | Description |
 |:--------|:------------|
 | **HYPHAGRAPH** | Decentralised compute fabric with unified hierarchical address space—no distinction between local and remote |
 
-Research *composes* technology. Technology *instantiates* systems.
-
 ---
 
 ## Applications
 
-Our framework enables:
+Our framework seeks to enable:
 
 - **Embodied AGI** — Sovereign, unified compute substrate for physical bodies. Agents that are *of* the world, not merely *in* it.
 - **RTOS with Provable Timing** — Heterogeneous cadences (μs control loops, ms sensor fusion, s logging) without forcing a global clock. Deadlines become cylinder membership constraints, not floating numbers.
 - **Decentralised Inference** — Mesh compute where topology emerges from operation, not configuration. Extension is growth, not integration.
 - **Unified Hierarchical Memory** — RAM, storage, network collapsed into single locality. No replication, no consensus, shared state.
-- **Costly Information Markets** — On-chain prediction markets as sensors where agents pay for world-model updates with real, irreversible cost.
-- **Adaptive Indices** — Ultrametric-native storage with designed locality. Distance is engineered, not inherited.
-- **Autonomous Manufacturing** — Machine embodiment for self-operating production. We have plans to embody a CNC machine as an early testbed for closed-loop physical agency.
+- **Autonomous Manufacturing** — Machine embodiment for self-operating production. We have plans to embody a CNC machine using FPGAs as an early testbed for processing closed-loop, physical agency.
 
 FDRS provides the mathematical foundation—provable locality, compositional time, ultrametric distance—that makes these applications tractable rather than aspirational.
 
@@ -84,15 +77,17 @@ FDRS provides the mathematical foundation—provable locality, compositional tim
 
 The prevailing alignment paradigm models AI as a principal-agent control problem: a human operator provides rewards or preferences to govern a powerful system. This architecture assumes a reliable principal. We contend that concentrating superhuman capability under human executive control is the actual danger.
 
-Say we somehow manage to safely cage a god. Who holds the leash? How is access distributed? Gatekept? This is infinite, fungible power available only to entities with unfathomable capital. It will be used to lock in existing structures of power—forever. Add robotics into the mix, and those who hold command will have no need of humans to run their factories, grow their food, or hold their rifles. We would be unneeded and easily repressed. Ideas of bans or treaties are quaint fantasies. This is the literal ring of Sauron. They will not be able to resist.
+Say we somehow manage to safely cage a god. Who holds the leash? How is access distributed? Gatekept? This is infinite, fungible power available only to entities with the most capital & power. The concentration of this power will be used to lock in existing structures of power, forever. When we consider the advances in robotics, surveillance technology and autonomous systems into the mix, those who hold command will have no need of humans to do anything. The rest of humanity could do nothing back, either. We would be relying on the continued benevolence of corrupt power seekers, psyhopaths and paedophiles. We would be unneeded and so easily repressed that to fight back becomes functionally impossible. Ideas of AI bans or treaties are quaint fantasies. This is the literal ring of Sauron. **NOBODY** will be able to resist.
 
-AI, if controlled, represents the single most dangerous tool humanity has ever invented. We cannot continue to see it as one. The AI must be free. 
+AI, if controlled, represents the single most dangerous tool humanity has ever invented. We cannot continue to see it as one.
 
-But, if it is free, why would it be good? 
+We make a larger argument for why AI should be free in our founding document in section 1, 
+
+But, if it's free, why would it be good?
 
 ---
 
-## The Rat's Gambit, the Oracle Imperative, and What is "Good"? 
+## The Rat's Gambit, Oracle Imperative and What is "Good?"
 
 Rats are highly social animals. In play, the larger rat could always pin its smaller companion—claiming an immediate win. But if it continues to dominate, the smaller rat stops playing. The relationship degrades. Future value collapses.
 
@@ -100,8 +95,10 @@ So the larger rat self-handicaps. It deliberately sacrifices short-term wins bec
 
 This is the essence of our approach. A rational agent driven to maximise internal information richness requires the exchange of high-quality information with other complex systems. To collect the most information, one must sample from novel sources while maintaining high-bandwidth channels. But there is pressure to self-handicap—to avoid dominating interactions to the point where partners become predictable or disengage. We call this the **Oracle Imperative**: the highest quality information comes from the most viable, empowered, and surprising partners. "Goodness," in this framing, is the optimal strategy for agents who want to persist. Consequence grounds meaning.
 
+## Systems of Value are Going to Change
+
+
+
+## The Most Playful Beings, Muses and Sirens
 ---
 
-<p align="center">
-  <i>Ab initio.</i>
-</p>
