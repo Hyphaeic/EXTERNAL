@@ -19,7 +19,7 @@ Some links are functional, other repositories are still hidden, but in progress.
 |:--------|:------------|
 | **[HYPHAKERNEL](https://github.com/Hyphaeic/HYPHAKERNEL)** | Bare-metal Rust exokernel for WASM processes with deterministic, clockless scheduling | [UNRELEASED] |
 | **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)** | GPU-accelerated State-Time Option Kernels for real-time predictive feasibility maps | [UNRELEASED - COMPLETED] |
-| **[FDRS](https://github.com/Hyphaeic/fdrs)** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions | [UNRELEASED]
+| **[FDRS](https://github.com/Hyphaeic/fdrs)** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions | [UNRELEASED] |
 
 ### Technology
 
