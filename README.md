@@ -3,7 +3,7 @@
 > *irreversibilitly is the prerequisite for meaning*
 
 **Hyphaeic Spc.** is a cognitive physics & topological compute Social Purpose Corporation working on clockless, deterministic compute architectures for self-sovereign embodied intelligence and independent economic agents.
-Based in Seattle, Washington State
+Based in Seattle, WA.
 
 ---
 
