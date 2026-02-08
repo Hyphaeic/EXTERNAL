@@ -2,7 +2,8 @@
 
 > *irreversibilitly is the prerequisite for meaning*
 
-**Hyphaeic Spc.** is a cognitive physics & hardware engineering research & development social benefit corporation based in Seattle, WA. We are building self-sovereign living systems as aligned, autonomous & persistent economic agents.
+**Hyphaeic sPC.** is a cognitive physics & topological compute Social Purpose Corporation working on clockless, deterministic compute architectures for self-sovereign embodied intelligence and independent economic agents.
+Based in Seattle, Washington State
 
 ---
 
@@ -10,21 +11,23 @@
 
 Our work spans three layers. **Research** provides foundational tooling. **Technologies** are usable implementations of that research. **Systems** are emergent, abstract patterns that are constructed from technology activity. Proccess, not object.
 
+Some links are functional, other repositories are still hidden, but in progress. 
+
 ### Research
 
-| Project | Description |
+| Project | Description | Release |
 |:--------|:------------|
-| **[HYPHAKERNEL](https://github.com/Hyphaeic/HYPHAKERNEL)** | Bare-metal Rust exokernel for WASM processes with deterministic, clockless scheduling |
-| **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)** | GPU-accelerated State-Time Option Kernels for real-time predictive feasibility maps |
-| **[FDRS](https://github.com/Hyphaeic/fdrs)** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions |
+| **[HYPHAKERNEL](https://github.com/Hyphaeic/HYPHAKERNEL)** | Bare-metal Rust exokernel for WASM processes with deterministic, clockless scheduling | [UNRELEASED] |
+| **[STOK-CORE](https://github.com/Hyphaeic/STOK-CORE)** | GPU-accelerated State-Time Option Kernels for real-time predictive feasibility maps | [UNRELEASED - COMPLETED] |
+| **[FDRS](https://github.com/Hyphaeic/fdrs)** | Variable-radix computational geometry enabling isolated, orthogonal timeline operations with seamless phase transitions | [UNRELEASED]
 
 ### Technology
 
 | Project | Description |
 |:--------|:------------|
-| **[HyphaeicOS](https://github.com/Hyphaeic/HyphaeicOS)** | Hardware-agnostic WASI/WASM sandboxed miniOS for mesh compute and embodied AGI |
-| **[FABIAN](https://github.com/Hyphaeic/fabian)** | Self-sustaining on-chain prediction markets that bootstrap liquidity and resolve outcomes via public data ingestion |
-| **[SGRP](./research_prospectus/positionPaper.pdf)** | Symbol Grounding Research Programme developing economically-grounded, self-regulating autonomous agents |
+| **[HyphaeicOS](https://github.com/Hyphaeic/HyphaeicOS)** | Hardware-agnostic WASI/WASM sandboxed miniOS for mesh compute and embodied AGI | [UNRELEASED] |
+| **[FABIAN](https://github.com/Hyphaeic/fabian)** | Self-sustaining on-chain prediction markets that bootstrap liquidity and resolve outcomes via public data ingestion | [UNRELEASED] |
+| **[SGRP](./research_prospectus/positionPaper.pdf)** | Symbol Grounding Research Programme developing economically-grounded, self-regulating autonomous agents | [UNRELEASED] |
 
 ### Systems
 
